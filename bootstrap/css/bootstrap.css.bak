@@ -4,8 +4,117 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*to fix padding of nav bar. search for li > a*/
+img{
+    width:100%;
+    max-width:300px;
+	height: auto;
+	max-height: 300px;
+}
+
+
+.lelz {
+    display: block;
+    height: 1px;
+    border: 0;
+	border-color: blue;
+	background-color: blue;
+	color: blue;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.impact {
+	font-family: Impact, Charcoal, sans-serif;
+}
+.commenter {
+	font-family: 'Tangerine', serif;
+}
+.cool {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: a82400;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.coolm {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: 2867BF;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.cool:hover {
+    background-color: ABE578;
+}
+.cool2:hover {
+    background-color: ABE578;
+}
+.cool6:hover {
+    background-color: ABE578;
+}
+.cool10{
+	color:5053aa;
+}
+.cool11{
+	color: FFEE41;
+}
+.cool2 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: 3D487F;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.cool6 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: green;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.cool3 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	color: D1701B;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.cool4 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+.cool5 {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+.link {
+	color: CCCCE5
+}
+.bg {
+	background-color: 4C4D7F;
+}
+.navbar-inversechange {
+  background-color: 4C4D7F;
+  border-color: #080808;
+}
+.containerchange {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.tdsick {
+    padding: 15px;
+    text-align: left;
+	border-bottom: 1px solid #ddd;
+}
 html {
-  font-family: sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -3458,7 +3567,6 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
-  float:right;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
@@ -4331,6 +4439,34 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+}
+.navbar-nav > li > form {
+  padding-top: 12px;
+  line-height: 20px;
+}
+.navbar-nav > li > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.navbar-nav > li > p {
+  padding-top: 16px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.navbar-nav > li > font {
+	font-weight: bold;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.navbar-nav > li > strong {
+	font-weight: bold;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
